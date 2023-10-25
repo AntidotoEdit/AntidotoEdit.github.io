@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e7e7e7;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin: 0 2rem;
+
+}
+
+.hero{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero p{
+    font-size: 4rem;
+}
+
+.hero p b{
+    padding: .6rem;
+    background-color: black;
+    color:#e7e7e7;
+}
+
+.eventos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrousel{
+    width: 90%;
+    max-width: 120em;
+    overflow: hidden;
+}
+.carrousel .grande{
+    width: 130%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+
+    transition: all .5s ease;
+    transform: translateX(0%);
+}
+.carrousel .img{
+    width: calc(100% / 3 -2em);
+    height: 56vh;
+    background-color: #b3b3b3;
+
+}
+.carrousel .puntos{
+    width: 100%;
+    padding: .4em;
+    margin: 1em 0 0;
+    list-style: none;
+
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.carrousel .punto{
+    width: 2em;
+    height: 2em;
+    margin: .2em;
+    background-color: black;
+    border-radius: 100%;
+}
