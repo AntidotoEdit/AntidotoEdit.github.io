@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .carrousel .grande{
+        display: none;
+    }
+    .carrousel .img{
+        display: none;
+    }
+    .carrousel-responsive{
+        display: flex;
+        justify-content: center;
+    }
+    .carrousel-responsive img{
+        width: 65%;
+    }
+}
+
+
+@media (max-width: 652px) {
+    header{
+        font-size: 1.5rem;
+    }
+    header nav{
+        display: none;
+    }
+    
+    .hero{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .hero p{
+        font-size: 3.5rem;
+    }
+    
+    .carrousel-responsive{
+        margin-bottom: 4rem;
+    }
+    .carrousel-responsive img{
+        width: 96%;
+    }
+    
+    .libros-container h1{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    .grid{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+}
