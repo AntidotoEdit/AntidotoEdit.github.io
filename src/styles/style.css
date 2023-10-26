@@ -207,6 +207,10 @@ footer{
     color:#e7e7e7;
 }
 
+footer a{
+    color: #e7e7e7;
+}
+
 .derechos{
     margin: 0px;
     font-size: .8rem;

@@ -61,4 +61,13 @@
         width: 15rem;
         height: 15rem;
     }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer nav ul{
+        font-size: .8rem;
+    }
 }

@@ -29,7 +29,9 @@ fetch(`${API_URL}/books.json`)
 
             
             // Asigna el href al elemento <a>
-            a.href = book.username;
+            a.href = book.url;
+            a.target= "_blank";
+
             img.src = book.image;
 
 
