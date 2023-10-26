@@ -10,6 +10,7 @@ body{
 
 h1{
     font-size: 2rem;
+    text-align: center;
 }
 
 a{
@@ -209,6 +210,7 @@ footer{
 .derechos{
     margin: 0px;
     font-size: .8rem;
+    text-align: center;
     background-color: black;
     color: #e7e7e7;
 }
