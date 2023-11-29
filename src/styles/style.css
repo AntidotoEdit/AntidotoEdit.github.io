@@ -157,11 +157,31 @@ main section h1{
 }
 
 .grid div{
-
     display: flex;
 }
 .grid div a{
     text-align: center;
+    padding-top: 2rem;
+}
+.grid div a:hover{
+    background-color: black;
+    transition: all 0.35s ease-in;
+
+}
+.grid div a:hover h2{
+    color: #e7e7e7;
+    transition: all 0.35s ease-in;
+
+}
+.grid div a:hover h4{
+    color: #e7e7e7;
+    transition: all 0.35s ease-in;
+
+}
+.grid div a:hover p{
+    color: #e7e7e7;
+    transition: all 0.35s ease-in;
+
 }
 .grid img{
     width: 80%;
